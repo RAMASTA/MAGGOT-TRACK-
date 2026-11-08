@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'required' => ':attribute wajib diisi.',
+    'string' => ':attribute harus berupa teks.',
+    'email' => 'Format :attribute tidak valid.',
+    'unique' => ':attribute sudah digunakan.',
+    'exists' => ':attribute yang dipilih tidak valid.',
+    'confirmed' => 'Konfirmasi :attribute tidak cocok.',
+    'numeric' => ':attribute harus berupa angka.',
+    'integer' => ':attribute harus berupa bilangan bulat.',
+    'boolean' => ':attribute tidak valid.',
+    'date' => ':attribute bukan tanggal yang valid.',
+    'image' => ':attribute harus berupa gambar.',
+    'mimes' => ':attribute harus berformat: :values.',
+    'in' => ':attribute yang dipilih tidak valid.',
+    'different' => ':attribute harus berbeda dari :other.',
+    'current_password' => 'Kata sandi saat ini salah.',
+    'before_or_equal' => ':attribute tidak boleh melebihi :date.',
+    'after_or_equal' => ':attribute tidak boleh sebelum :date.',
+    'gt' => ['numeric' => ':attribute harus lebih besar dari :value.'],
+    'min' => [
+        'numeric' => ':attribute minimal :min.',
+        'string' => ':attribute minimal :min karakter.',
+    ],
+    'max' => [
+        'numeric' => ':attribute maksimal :max.',
+        'string' => ':attribute maksimal :max karakter.',
+        'file' => ':attribute maksimal :max KB.',
+    ],
+    'between' => ['numeric' => ':attribute harus antara :min dan :max.'],
+    'uploaded' => ':attribute gagal diunggah.',
+
+    'attributes' => [
+        'name' => 'Nama', 'email' => 'Email', 'password' => 'Kata sandi', 'current_password' => 'Kata sandi saat ini',
+        'batch_id' => 'Batch', 'batch_name' => 'Nama batch', 'egg_date' => 'Tanggal telur', 'hatch_date' => 'Tanggal penetasan',
+        'initial_population' => 'Jumlah awal', 'harvest_method' => 'Metode budidaya', 'target_harvest_date' => 'Target tanggal panen',
+        'status' => 'Status', 'notes' => 'Catatan', 'feeding_date' => 'Tanggal pemberian', 'feed_type' => 'Jenis pakan',
+        'feed_weight' => 'Berat pakan', 'waste_source' => 'Sumber sampah', 'measurement_date' => 'Tanggal pengukuran',
+        'sample_weight' => 'Berat sampel', 'average_length' => 'Panjang rata-rata', 'condition' => 'Kondisi',
+        'temperature' => 'Suhu', 'humidity' => 'Kelembapan', 'media_condition' => 'Kondisi media', 'odor_condition' => 'Kondisi bau',
+        'harvest_date' => 'Tanggal panen', 'harvest_weight' => 'Berat hasil panen', 'harvest_condition' => 'Kondisi hasil panen',
+        'utilization' => 'Pemanfaatan', 'photo' => 'Foto', 'description' => 'Keterangan', 'from' => 'Tanggal awal', 'to' => 'Tanggal akhir',
+    ],
+];
